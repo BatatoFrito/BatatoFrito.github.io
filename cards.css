@@ -1,0 +1,69 @@
+#TTYD {
+    background-image: url(img/cards/ttyd.jpg);
+}
+#PartnersInTime {
+    background-image: url(img/cards/partnersintime.jpg);
+}
+#SPM {
+    background-image: url(img/cards/spm.jpg);
+}
+#PM64 {
+    background-image: url(img/cards/pm64.jpg);
+}
+#BowsersInsideStory {
+    background-image: url(img/cards/bowsersinsidestory.jpg);
+}
+#DreamTeam {
+    background-image: url(img/cards/dreamteam.jpg);
+}
+#SuperStarSaga {
+    background-image: url(img/cards/superstarsaga.jpg);
+}
+#GravityRush {
+    background-image: url(img/cards/gravityrush.jpg);
+}
+#RE4RE {
+    background-image: url(img/cards/re4re.jpg);
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+#RE4RE:hover {
+    background-image: url(img/cards/wesker.jpg);
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+#THIRTEENSENTINELS {
+    background-image: url(img/cards/13sentinels.jpg);
+}
+#MurderOfSonic {
+    background-image: url(img/cards/murderofsonic.jpg);
+}
+#VALHALLA {
+    background-image: url(img/cards/valhalla.jpg);
+}
+#Nocturne {
+    background-image: url(img/cards/nocturne.jpg);
+}
+#DESU2RB {
+    background-image: url(img/cards/desu2.jpg);
+}
+#Raidou1 {
+    background-image: url(img/cards/raidou1.jpg);
+}
+#ThreeHouses {
+    background-image: url(img/cards/threehouses.jpg);
+}
+#FF7RE {
+    background-image: url(img/cards/ff7re.jpg);
+}
+#DemonSoulsRe {
+    background-image: url(img/cards/demonsoulsre.jpg);
+}
+#GhostOfTsushima {
+    background-image: url(img/cards/ghostoftsushima.jpg);
+}
+#GravityRush2 {
+    background-image: url(img/cards/gravityrush2.jpg);
+}

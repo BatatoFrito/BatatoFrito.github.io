@@ -1,0 +1,111 @@
+
+body {   
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 160, 113);
+    font-family: monospace;
+    text-shadow: 0.5px 1px 3px black;
+    
+}
+h1 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+section {
+    margin-top: 70px;
+    min-width: 565px;
+}
+li {
+    margin-top: 15px;
+    min-width: 565px;
+}
+header {
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+    min-width: 565px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+footer {
+    border-top: 5px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 70px;
+    min-width: 565px;
+}
+footer h2 {
+    margin-bottom: 0;
+}
+.hf-bg {
+    width: 100%;    
+    min-width: 565px;
+    background-color: rgb(2, 107, 76);
+}
+.game-card {
+    width: 525px;
+    height: 145px;
+    line-height: 140px;
+    padding-left: 40px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    white-space: nowrap;
+    box-shadow: 1px 1px 40px black inset;
+    text-shadow: 0.5px 1px 7px black;
+    font-family: 'Bebas Neue', monospace;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 525px;
+}
+li.muito-bom {
+    list-style-type: "😃";
+    font-size: 35px;
+    padding-inline-start: 1ch;
+}
+li.bom {
+    list-style-type: "🙂";
+    font-size: 35px;
+    padding-inline-start: 1ch;
+}
+li.ok {
+    list-style-type: "😐";
+    font-size: 35px;
+    padding-inline-start: 1ch;
+}
+li.perdemo {
+    list-style-type: "😔";
+    font-size: 35px;
+    padding-inline-start: 1ch;
+}
+.h-text-background {
+    background-color: rgb(2, 107, 76);
+    padding: 15px 5px;
+}
+.text-background {
+    background-color: rgba(0, 0, 0, 0.401);
+    padding: 0 5px;
+}
+#jogos-atuais .game-card {
+    border: 3px dashed rgb(92, 243, 107);
+    background-clip: padding-box;
+}
+#jogos-atuais ul {
+    list-style: none;
+}
+#jogos-futuros .game-card {
+    border: 3px dashed rgb(169, 169, 169);
+    background-clip: padding-box;
+}
+#jogos-futuros ul {
+    list-style: none;
+}
+#jogos-terminados .game-card {
+    border: 3px solid rgb(255, 255, 255);
+    background-clip: padding-box;
+}
