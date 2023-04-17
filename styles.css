@@ -12,6 +12,9 @@ h1 {
     font-size: 40px;
     font-weight: 900;
 }
+h2 {
+    padding-bottom: 30px;
+}
 section {
     margin-top: 70px;
     min-width: 565px;
@@ -64,24 +67,20 @@ footer h2 {
     min-width: 525px;
 }
 li.muito-bom {
-    list-style-type: "😃";
+    list-style-type: "😃 ";
     font-size: 35px;
-    padding-inline-start: 1ch;
 }
 li.bom {
-    list-style-type: "🙂";
+    list-style-type: "🙂 ";
     font-size: 35px;
-    padding-inline-start: 1ch;
 }
 li.ok {
-    list-style-type: "😐";
+    list-style-type: "😐 ";
     font-size: 35px;
-    padding-inline-start: 1ch;
 }
 li.perdemo {
-    list-style-type: "😔";
+    list-style-type: "😔 ";
     font-size: 35px;
-    padding-inline-start: 1ch;
 }
 .h-text-background {
     background-color: rgb(2, 107, 76);
@@ -104,6 +103,10 @@ li.perdemo {
 }
 #jogos-futuros ul {
     list-style: none;
+}
+#jogos-futuros div.container ul li:first-child {
+    list-style: "PRÓXIMO TALVEZ ";
+    font-size: 15px;
 }
 #jogos-terminados .game-card {
     border: 3px solid rgb(255, 255, 255);
