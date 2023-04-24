@@ -45,7 +45,7 @@ ul {
 }
 button {
     margin-top: 10px;
-    background-color: rgba(1, 85, 59, 0.555);
+    background-color: rgb(2, 107, 76);
     border: none;
     color: white;
     font-family: monospace;
@@ -54,7 +54,7 @@ button {
     text-shadow: 0.5px 1px 3px black;
 }
 button:active {
-    background-color: rgba(0, 41, 28, 0.555);
+    background-color: rgb(1, 85, 58);
 }
 .hf-bg {
     width: 100%;    
