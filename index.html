@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="cards.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue" rel="stylesheet">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="hf-bg">
@@ -56,6 +57,8 @@
                 <li>
                     <div class="game-card" id="VALHALLA"><span class="text-background">VA-11 Hall-A</span></div>    
                 </li>
+            </ul>
+            <ul id="hidden-futuro">
                 <li>
                     <div class="game-card" id="BowsersInsideStory"><span class="text-background">Bowser's Inside Story</span></div>    
                 </li>
@@ -81,6 +84,7 @@
                     <div class="game-card" id="GhostOfTsushima"><span class="text-background">Ghost of Tsushima</span></div>    
                 </li>
             </ul>
+            <button id="botao-futuro" onclick="lista_function('hidden-futuro','botao-futuro')">Exibir mais</button>
         </div>
     </section>
     <section id="jogos-terminados">
@@ -100,6 +104,8 @@
                 <li class="muito-bom">
                     <div class="game-card" id="PM64"><span class="text-background">PAPER MARIO</span></div>    
                 </li>
+            </ul>
+            <ul id="hidden-terminados">
                 <li class="bom">
                     <div class="game-card" id="GravityRush"><span class="text-background">Gravity Rush</span></div>    
                 </li>
@@ -113,6 +119,7 @@
                     <div class="game-card" id="FF7RE"><span class="text-background">Final Fantasy 7 Remake</span></div>    
                 </li>
             </ul>
+            <button id="botao-terminados" onclick="lista_function('hidden-terminados','botao-terminados')">Exibir mais</button>
         </div>
     </section>
     <div class="hf-bg">

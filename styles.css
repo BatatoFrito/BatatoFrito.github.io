@@ -13,6 +13,7 @@ h1 {
 }
 h2 {
     margin: 0;
+    margin-bottom: 10px;
 }
 section {
     margin-top: 70px;
@@ -38,6 +39,22 @@ footer {
 }
 footer h2 {
     margin-bottom: 0;
+}
+ul {
+    margin: 0;
+}
+button {
+    margin-top: 10px;
+    background-color: rgba(1, 85, 59, 0.555);
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.5px 1px 3px black;
+}
+button:active {
+    background-color: rgba(0, 41, 28, 0.555);
 }
 .hf-bg {
     width: 100%;    
@@ -112,9 +129,18 @@ li.perdemo {
     list-style: "PRÓXIMO TALVEZ ";
     font-size: 15px;
 }
+#hidden-futuro {
+    display: none;
+}
+#jogos-futuros div.container #hidden-futuro li:first-child {
+    list-style: none;
+}
 #jogos-terminados .game-card {
     border: 3px solid rgb(255, 255, 255);
     background-clip: padding-box;
+}
+#hidden-terminados {
+    display: none;
 }
 @media only screen and (max-width: 600px) {
     ul, li, .container, .game-card {
