@@ -29,6 +29,10 @@ body {
     border-top: 2px dotted white;
 }
 
+#footer h2 {
+    color: black;
+}
+
 .header-container {
     width: 300px;
     margin: 0 auto;
